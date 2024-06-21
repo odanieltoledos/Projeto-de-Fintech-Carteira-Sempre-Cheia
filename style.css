@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Coolvetica:wght@1,2,3,4,5&family=Open+Sans:wght@400;600&display=swap');
+
+body {
+    background-color: #181818;
+    font-family: 'Coolvetica', sans-serif;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.container {
+    margin: 40px auto;
+    background-color: #f9f9f9;
+    padding: 50px;
+    border-radius: 1.3rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+h1 {
+    color: #333;
+    font-weight: 600;
+    font-size: 5rem;
+    margin-bottom: 5px;
+}
+
+.intro-text {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-control {
+    border-radius: 15px;
+    background-color: #E7E6E6;
+    color: #9C9C9C;
+    padding: 10px;
+}
+
+.btn-primary {
+    background-color: #181818;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background-color: #249729;
+}
+
+.form-check {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox-label {
+    font-size: 1rem;
+}
+
+.link {
+    color: #249729;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .intro-text {
+        font-size: 1.3rem;
+    }
+
+    .container {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .intro-text {
+        font-size: 1.1rem;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .form-group {
+        margin-bottom: 8px;
+    }
+
+    .btn-primary {
+        padding: 8px 16px;
+    }
+}
